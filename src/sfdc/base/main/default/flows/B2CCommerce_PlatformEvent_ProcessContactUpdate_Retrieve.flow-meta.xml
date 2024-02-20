@@ -724,16 +724,9 @@
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Process_Mode__c</leftValueReference>
-                <operator>NotEqualTo</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>retrieve</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Process_Mode__c</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>publish</stringValue>
                 </rightValue>
             </conditions>
             <label>ProcessMode is InValid</label>
@@ -905,7 +898,7 @@
             <label>Was Found</label>
         </rules>
     </decisions>
-    <description>... this flow is used to retrieve, process, and write B2C Commerce Customer Profile details retrieved via the B2C Commerce OCAPI REST API back to the mapped Salesforce Contact object managed by the Salesforce Platform.</description>
+    <environments>Default</environments>
     <formulas>
         <description>... represents the number of retries to support when requesting a B2C AuthToken.</description>
         <name>RetryCountLimit</name>
@@ -913,8 +906,8 @@
         <expression>VALUE({!RetryCountPicklistValue})</expression>
         <scale>0</scale>
     </formulas>
-    <interviewLabel>B2C Commerce: Platform Event: Process Contact: {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>B2C Commerce: Platform Event: Process Contact Update</label>
+    <interviewLabel>B2C Commerce: Platform Event: Process Contact Update - Get {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>B2C Commerce: Platform Event: Process Contact Update - Retrieve</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -935,7 +928,7 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordCreates>
-        <description>... audit the B2C Commerce Customer Profile integration results for the specific Contact record.</description>
+        <description>Audit the B2C Commerce Customer Profile integration results for the specific Contact record.</description>
         <name>recCreate_B2CRetrieveContactIntegrationHistory</name>
         <label>Audit the B2C Commerce Customer Profile</label>
         <locationX>337</locationX>
