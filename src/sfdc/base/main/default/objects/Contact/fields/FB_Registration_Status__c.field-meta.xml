@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FB_Registration_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Registrierung Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NONE</fullName>
+                <default>false</default>
+                <label>NONE</label>
+            </value>
+            <value>
+                <fullName>REGISTERED</fullName>
+                <default>false</default>
+                <label>REGISTERED</label>
+            </value>
+            <value>
+                <fullName>CONFIRMED</fullName>
+                <default>false</default>
+                <label>CONFIRMED</label>
+            </value>
+            <value>
+                <fullName>ACTICE</fullName>
+                <default>false</default>
+                <label>ACTICE</label>
+            </value>
+            <value>
+                <fullName>INACTIVE</fullName>
+                <default>false</default>
+                <label>INACTIVE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

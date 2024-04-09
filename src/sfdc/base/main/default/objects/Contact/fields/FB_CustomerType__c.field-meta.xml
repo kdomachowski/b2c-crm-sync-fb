@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FB_CustomerType__c</fullName>
+    <externalId>false</externalId>
+    <label>Kunde Typ</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PRIVATE</fullName>
+                <default>false</default>
+                <label>PRIVATE</label>
+            </value>
+            <value>
+                <fullName>COMPANY</fullName>
+                <default>false</default>
+                <label>COMPANY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

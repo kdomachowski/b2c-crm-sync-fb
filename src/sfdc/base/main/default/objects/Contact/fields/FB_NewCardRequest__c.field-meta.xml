@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>FB_ProfileAddressCity__c</fullName>
+    <fullName>FB_NewCardRequest__c</fullName>
+    <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Profil Adresse - Stadt</label>
-    <length>255</length>
-    <required>false</required>
+    <label>Neue Karte angefordert</label>
     <trackFeedHistory>false</trackFeedHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>Checkbox</type>
 </CustomField>

@@ -5,7 +5,6 @@
     <label>Profil Adresse - Bundesland</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <controllingField>FB_ProfileAddressCountryCode__c</controllingField>
