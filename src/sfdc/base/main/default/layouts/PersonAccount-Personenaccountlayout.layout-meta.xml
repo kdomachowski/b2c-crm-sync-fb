@@ -346,10 +346,6 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>FB_LoyaltyCard__c.FB_Kontakt__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
         <relatedList>FB_SW_S_User__c.Account__c</relatedList>
     </relatedLists>
     <relatedLists>
