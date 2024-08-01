@@ -7,6 +7,8 @@
     <columns>Service_Cloud_Attribute_Alt__c</columns>
     <columns>Service_Cloud_Attribute__c</columns>
     <columns>Enable_for_Integration__c</columns>
+    <columns>Consume_Updates_from_B2C_Commerce__c</columns>
+    <columns>Push_Updates_to_B2C_Commerce__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Service_Cloud_Object__c</field>

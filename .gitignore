@@ -1,6 +1,6 @@
 # Webstorm / vsCode Project Directory
 /.idea/
-/.vscode/
+**/.vscode/
 /.sfdx/
 /IlluminatedCloud/
 /_demos/
@@ -63,7 +63,7 @@ pids
 /node_modules
 
 # dotenv environment variables file
-.env
+.env*
 *.alt
 
 # Ignore dwupload config

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FB_CDM_Third_Matching_Value__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+NOT(ISBLANK(FB_ProfileAddressStreet__c)),
+NOT(ISBLANK(FB_ProfileAddressPostalcode__c)),
+NOT(ISBLANK(Birthdate))
+),
+TEXT(Birthdate) &amp; &apos;/&apos; &amp; FB_ProfileAddressPostalcode__c &amp; LEFT(FB_ProfileAddressStreet__c, 5),
+&apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CDM Third Matching Value</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

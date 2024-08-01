@@ -11,7 +11,7 @@
     <filters>
         <field>ACCOUNT.RECORDTYPE</field>
         <operation>equals</operation>
-        <value>PersonAccount.PersonAccount</value>
+        <value>PersonAccount.FB_PersonAccount</value>
     </filters>
     <label>B2C Commerce Customer Profiles</label>
 </ListView>

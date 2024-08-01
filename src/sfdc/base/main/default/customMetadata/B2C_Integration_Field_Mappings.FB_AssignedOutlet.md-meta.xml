@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>B2C Profile: Company Name</label>
+    <label>FB Assigned Outlet</label>
     <protected>false</protected>
     <values>
         <field>B2C_Commerce_Attribute_Type__c</field>
@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>B2C_Commerce_OCAPI_Attribute__c</field>
-        <value xsi:type="xsd:string">company_name</value>
+        <value xsi:type="xsd:string">c_fb_b2ccrm_assignedOutlet</value>
     </values>
     <values>
         <field>Consume_Updates_from_B2C_Commerce__c</field>
@@ -44,11 +44,11 @@
     </values>
     <values>
         <field>Service_Cloud_Attribute_Alt__c</field>
-        <value xsi:type="xsd:string">FB_CompanyName__pc</value>
+        <value xsi:type="xsd:string">FB_AssignedOutlet__pc</value>
     </values>
     <values>
         <field>Service_Cloud_Attribute__c</field>
-        <value xsi:type="xsd:string">FB_CompanyName__c</value>
+        <value xsi:type="xsd:string">FB_AssignedOutlet__c</value>
     </values>
     <values>
         <field>Service_Cloud_Object__c</field>

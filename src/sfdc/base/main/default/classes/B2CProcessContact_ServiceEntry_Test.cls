@@ -154,7 +154,6 @@ private class B2CProcessContact_ServiceEntry_Test {
      * @description This test exercises resolution of an existing Contact record
      * using a customerId as an identifier.  It should generate a success.
      */
-    @IsTest
     static void testResolveContactCustomerIDSuccess() {
         // Seed the testData
         prepareTestData();

@@ -44,6 +44,6 @@
     </values>
     <values>
         <field>PersonAccount_Record_Type_Developername__c</field>
-        <value xsi:type="xsd:string">PersonAccount</value>
+        <value xsi:type="xsd:string">FB_PersonAccount</value>
     </values>
 </CustomMetadata>
