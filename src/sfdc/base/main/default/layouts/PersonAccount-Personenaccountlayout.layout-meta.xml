@@ -133,7 +133,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>FB_PimaryCard__pc</field>
+                <field>FB_PimaryCard__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -1157,7 +1157,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.FB_PimaryCard__c</field>
+        <field>Contact.FB_PrimaryCard__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
